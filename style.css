@@ -1,0 +1,202 @@
+body {
+  background-color: black;
+  margin-top: -25px;
+}
+
+.menuBar {
+  width: 100%;
+  height: 75px;
+  display: block;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10355726_1581806802034717_3800374258536094773_n.jpg?oh=606af01cc8aa2ade32cc713f09768aa8&oe=584DD915");
+}
+
+.logo {
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav {
+  float: right;
+  margin-right: 10px;
+}
+
+.nav ul li {
+  list-style: none;
+  float: left;
+}
+
+#me {
+  float: left;
+  width: 300px;
+  height: auto;
+  border-radius: 10%;
+  border: solid black;
+}
+
+h3 {
+  padding-right: 100px;
+  padding-left: 350px;
+  font-family:"Courier New", Courier, monospace;
+}
+
+.p {
+  font-size: 20px;
+  padding-right: 150px;
+}
+
+.port-image {
+  max-width: 45%;
+  max-height: 45%;
+  margin: 0 auto;
+}
+
+form {
+  float: left;
+  padding-right: 200px;
+}
+
+#about {
+  background-image: url("http://vignette4.wikia.nocookie.net/evangelion/images/0/0d/Wiki-bg-flat.png/revision/latest?cb=20130102022501");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 100px;
+  border: solid black;
+}
+
+#portfolio {
+  background-image: url("http://vignette4.wikia.nocookie.net/evangelion/images/0/0d/Wiki-bg-flat.png/revision/latest?cb=20130102022501");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  max-width: 100%;
+  border: solid black;
+}
+
+#contact {
+  background-image: url("http://vignette4.wikia.nocookie.net/evangelion/images/0/0d/Wiki-bg-flat.png/revision/latest?cb=20130102022501");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  max-width: 100%;
+  border: solid black;
+}
+
+section {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 0.5em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-left: 100px;
+}
+ 
+.wrapper,.copyright {
+	padding: 20px;
+	text-align: center;
+}
+hr{
+	margin: 30px 20px;
+	border-top:2px solid #1C1E26 ;
+	border-bottom:2px solid #38404D;
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+/*---- Genral classes end -------*/
+
+/*Change icons size here*/
+.social-icons .fa {
+	font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+	border-radius:5px;
+}
+.social-icons.icon-flat .fa{
+	border-radius: 0;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333; 
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active { 
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active { 
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
+ 
+.social-icons .fa-adn{background-color:#504e54;} 
+.social-icons .fa-apple{background-color:#aeb5c5;} 
+.social-icons .fa-android{background-color:#A5C63B;}  
+.social-icons .fa-bitbucket,.social-icons .fa-bitbucket-square{background-color:#003366;} 
+.social-icons .fa-bitcoin,.social-icons .fa-btc{background-color:#F7931A;} 
+.social-icons .fa-css3{background-color:#1572B7;} 
+.social-icons .fa-dribbble{background-color:#F46899;}  
+.social-icons .fa-dropbox{background-color:#018BD3;}
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}  
+.social-icons .fa-flickr{background-color:#FF0084;}
+.social-icons .fa-foursquare{background-color:#0086BE;}
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;} 
+
+.social-icons .fa-instagram{background-color:#A1755C;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;} 
+
+.social-icons .fa-skype{background-color:#01AEF2;}
+
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;} 
+
+.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+
+
+ 
